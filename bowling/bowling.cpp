@@ -8,6 +8,7 @@
 
 void printHelp();
 void processGame(const std::string &directory, const std::string &file);
+
 int main(int argc, char **argv) {
   switch (argc) {
   case 2: {
